@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+    overflow-x: hidden;
+    
+}
+
+header{
+    
+    padding: 30px;
+    background-image: url("assets/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 420px;
+    
+}
+
+h1{
+    color: white;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-icon{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+}
+
+.header-title-container{
+    margin-top: 80px;
+    margin-left: 150px;
+    border: 1px solid white;
+    width: 420px; 
+    padding: 20px;
+    line-height: 1.1;
+   
+}
+
+.header-title{
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: white;
+    font-weight: 100;
+}
+
+.icon{
+    display: none;
+}
+
+/* Creation Section */
+
+.creations{
+    padding: 30px;
+}
+
+.creation-title-button{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.creation-title{
+    color: black;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 800px){
+    .interactive-container{
+        padding: 30px;
+        display: flex;
+        margin-top: 70px;
+    }
+    
+    .interactive-image-container{
+        background-image: url("assets/desktop/image-interactive.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 420px;
+        width: 60%;
+    }
+    
+    .interactive-content{
+        width: 580px;
+        height: 310px;
+        right: 80px;
+        top: 120px;
+        padding: 20px;
+        text-align: left;
+        position: relative;
+        min-width: 320px;
+        background-color: white;
+    }
+    
+    .interactive-content-title{
+        font-size: 32px;
+        font-weight: 200;
+        
+    }
+    
+    .interactive-content-paragraph{
+        margin-top: 30px;
+    }
+
+    /* Creations Content */
+
+
+.creations{
+    margin-top: 60px;
+}
+
+
+
+.grid-container{
+
+    display: grid;
+    margin-top: 60px;
+    justify-content: center;
+    grid-template-columns: 150px 150px 150px 150px;
+    row-gap: 20px;
+    column-gap: 60px;
+    margin-bottom: 100px;
+    
+}
+
+.grid-item{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 180px;
+    position: relative;
+    
+}
+
+.grid-item-1{
+    background-image: url("assets/desktop/image-deep-earth.jpg");
+    
+    
+}
+
+
+
+.grid-item-2{
+    background-image: url("assets/desktop/image-night-arcade.jpg");
+    
+}
+
+.grid-item-3{
+    background-image: url("assets/desktop/image-soccer-team.jpg");
+    
+}
+
+.grid-item-4{
+    background-image: url("assets/desktop/image-grid.jpg");
+   
+}
+
+.grid-item-5{
+    background-image: url("assets/desktop/image-from-above.jpg");
+   
+}
+
+.grid-item-6{
+    background-image: url("assets/desktop/image-pocket-borealis.jpg");
+    
+}
+
+.grid-item-7{
+    background-image: url("assets/desktop/image-curiosity.jpg");
+   
+}
+
+.grid-item-8{
+    background-image: url("assets/desktop/image-fisheye.jpg");
+    
+}
+
+.grid-item-title{
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    line-height: 1;
+}
+
+.creation-button{
+    width: 120px;
+    font-size: 14px;
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+    outline: none;
+}
+
+.creation-button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* Footer */
+
+
+footer{
+   margin-top: -1;
+   background-color: black;
+   padding: 30px;
+   
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footer-title{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.social-media-icons{
+    margin-bottom: 20px;
+}
+
+.social-icon{
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+
+.copyright-content{
+    color: rgb(170, 170, 170);
+}
+
+.footer-links{
+    display: flex;
+}
+
+.footer-links li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.footer-links li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer-links li a:hover{
+    text-decoration: underline;
+}
+
+}
+@media screen and (max-width:768px){
+
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header{
+        
+        padding: 0;
+        background-image: url("assets/mobile/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        overflow-x: hidden;
+    }
+
+    .header-icon{
+        font-size: 20px;
+    }
+
+    .icon{
+        display: block;
+        position: absolute;
+        color: white;
+        right: 0;
+    }
+
+    .header-container{
+        position: relative;
+    }
+
+    .menu{
+        
+        display: none;
+        
+    }
+
+    .menu li{
+        margin-top: 20px;
+    }
+
+    .show{
+        display: flex;
+        position: absolute;
+        padding: 20px;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        background-color: rgb(26, 26, 26);
+        flex-direction: column;
+        width: 100%;
+        height: 540px;
+    }
+
+    .header-title-container{
+        margin: 0 auto;
+        margin-top: 130px;
+        width: 240px;
+        height: 140px;
+    }
+
+    .header-title{
+        font-size: 22px;
+    }
+
+    .header-icon{
+        position: absolute;
+        left: 15px;
+        top: 20px;
+        font-size: 22px;
+        z-index: 1;
+    }
+    
+    .icon{
+        margin-top: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+        z-index: 1;
+    }
+    
+    
+    /* Interactive-container */
+
+    .interactive-container{
+        padding: 30px;
+        
+    }
+
+    .interactive-image-container{
+        background-image: url("assets/mobile/image-interactive.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 260px;
+        height: 230px;
+        margin: 0 auto;
+    }
+
+    .interactive-content{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .interactive-content-title{
+        font-size: 32px;
+        margin-bottom: 20px;
+        font-weight: 200;
+        line-height: 1.2;
+    }
+
+
+    /* Creations container*/
+
+    .grid-item-1{
+        background-image: url("assets/mobile/image-deep-earth.jpg");
+    }
+
+    .grid-item-2{
+        background-image: url("assets/mobile/image-night-arcade.jpg");
+    }
+
+    .grid-item-3{
+        background-image: url("assets/mobile/image-soccer-team.jpg");
+    }
+
+    .grid-item-4{
+        background-image: url("assets/mobile/image-grid.jpg");
+    }
+
+    .grid-item-5{
+        background-image: url("assets/mobile/image-from-above.jpg");
+    }
+   
+    .grid-item-6{
+        background-image: url("assets/mobile/image-pocket-borealis.jpg");
+    }
+
+    .grid-item-7{
+        background-image: url("assets/mobile/image-curiosity.jpg");
+    }
+
+    .grid-item-8{
+        background-image: url("assets/mobile/image-fisheye.jpg");
+    }
+}
