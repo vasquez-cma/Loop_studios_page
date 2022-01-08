@@ -287,7 +287,7 @@ footer{
 }
 
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:800px){
 
 
     body{
@@ -295,7 +295,6 @@ footer{
     }
 
     header{
-        
         padding: 0;
         background-image: url("assets/mobile/image-hero.jpg");
         background-repeat: no-repeat;
@@ -373,7 +372,7 @@ footer{
 
     .interactive-container{
         padding: 30px;
-        
+     
     }
 
     .interactive-image-container{
@@ -401,6 +400,30 @@ footer{
 
     /* Creations container*/
 
+    .creations{
+        position: relative;
+        margin-top: 60px;
+        
+    }
+
+    .grid-container{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 260px;
+        column-gap: 60px;
+        row-gap: 30px;
+    }
+
+    .grid-item{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 140px;
+        width: 260px;
+        padding: 10px;
+        
+    }
+
     .grid-item-1{
         background-image: url("assets/mobile/image-deep-earth.jpg");
     }
@@ -427,9 +450,105 @@ footer{
 
     .grid-item-7{
         background-image: url("assets/mobile/image-curiosity.jpg");
+      
     }
 
     .grid-item-8{
         background-image: url("assets/mobile/image-fisheye.jpg");
     }
+
+    .grid-item-title{
+        color: rgb(255, 255, 255);
+        font-weight: lighter;
+        margin-top: 50px;
+    }
+
+    .creation-title-button{
+        position: relative;
+        text-align: center;
+    }
+
+    .creation-title{
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        top: -80px;
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 100px;
+        background: none;
+        cursor: pointer;
+        outline: none;
+        height: 40px;
+    }
+    
+
+    .creation-button{
+        position: absolute;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 100px;
+        bottom: -1400px;
+        background: none;
+        border: 1px solid black;
+        cursor: pointer;
+        outline: none;
+        height: 40px;
+       
+    }
+
+
+    .creation-button:hover{
+        background-color: black;
+        color: white;
+    }
+
+
+    /* Footer */
+
+
+    footer{
+        margin-top: 60px;
+        background-color: black;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .footer-title{
+        color: white;
+    }
+
+    .footer-links li{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    .footer-links li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer-title{
+        margin-bottom: 20px;
+    }
+
+    .footer-links{
+        margin-bottom: 20px;
+    }
+
+    .social-media-icons{
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .copyright-content{
+        color: rgb(170, 170, 170);
+    }
+
+    .social-icon{
+        margin-right: 10px;
+    }
+    
 }
